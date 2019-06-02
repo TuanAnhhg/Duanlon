@@ -4,13 +4,18 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v4.content.ContextCompat;
 
 import java.util.ArrayList;
 
 public class TuongTacDatabase {
     Database database;
     SQLiteDatabase sqLiteDatabase;
+    String arr[] = new String[]{database.COLUMN_ID,
+            database.COLUMN_EMAIL
+            ,database.COLUMN_NAME,
+            database.COLUMN_GT,
+            database.COLUMN_LOP,
+            database.COLUMN_SDT};
 
     public TuongTacDatabase(Context context){
         database = new Database(context);

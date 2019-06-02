@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">QuanLySinhVien</string>
+    <array name="lop">
+        <item>
+            Lop Truong
+        </item>
+        <item>
+            Lop Pho
+        </item>
+        <item>
+            Bi Thu Doan
+        </item>
+        <item>
+            Pho Bi Thu
+        </item>
+    </array>
 </resources>
